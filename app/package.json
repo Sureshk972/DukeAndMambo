@@ -1,0 +1,35 @@
+{
+  "name": "duke-and-mambo-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:sync": "vite build && cap sync",
+    "cap:ios": "vite build && cap sync ios && cap open ios",
+    "cap:android": "vite build && cap sync android && cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/camera": "^8.2.0",
+    "@capacitor/core": "^8.3.4",
+    "@capacitor/geolocation": "^8.2.0",
+    "@capacitor/ios": "^8.3.4",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/push-notifications": "^8.1.1",
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.4",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "vite": "^8.0.14"
+  }
+}

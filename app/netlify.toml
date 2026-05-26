@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA fallback — every non-static route should serve index.html so React
+# Router can handle it client-side.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
