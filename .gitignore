@@ -14,9 +14,17 @@ build/
 .next/
 out/
 
-# Capacitor — generated native projects
-app/ios/
-app/android/
+# Capacitor — the ios/ and android/ folders ARE committed because they
+# contain customizations (Info.plist, icons, splash, signing config).
+# Only the generated/local-only bits inside them are ignored.
+app/ios/App/Pods/
+app/ios/App/Podfile.lock
+app/ios/.gradle/
+app/android/.gradle/
+app/android/local.properties
+app/android/.idea/
+app/android/app/build/
+app/android/build/
 
 # Logs
 *.log

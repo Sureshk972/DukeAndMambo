@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Duke and Mambo</string>
+    <string name="title_activity_main">Duke and Mambo</string>
+    <string name="package_name">com.twelvesigma.dukeandmambo</string>
+    <string name="custom_url_scheme">com.twelvesigma.dukeandmambo</string>
+</resources>
